@@ -1,0 +1,125 @@
+strict digraph {
+	node [color=lightblue2 style=filled]
+	Node [fontsize=40 shape=box]
+	Palashi [pos="0,0!"]
+	Node [fontsize=40 shape=box]
+	Azimpur [pos="0,3.5!"]
+	Node [fontsize=40 shape=box]
+	"Dhaka Medical" [pos="0,-12!"]
+	Node [fontsize=40 shape=box]
+	Lalbagh [pos="-13,0!"]
+	Node [fontsize=40 shape=box]
+	Nilkhet [pos="1,3!"]
+	Node [fontsize=40 shape=box]
+	"Folab Road" [pos="3,-3!"]
+	Node [fontsize=40 shape=box]
+	"Shahid Minar" [pos="3.5,-15!"]
+	Node [fontsize=40 shape=box]
+	"Press Club" [pos="-3,-22!"]
+	Node [fontsize=40 shape=box]
+	Shahbagh [pos="7,-17!"]
+	Node [fontsize=40 shape=box]
+	"New Market" [pos="5.5,3.5!"]
+	Edge [fontsize=30]
+	Palashi -> Azimpur [label="P>A
+3.5" arrowsize=3.0]
+	Edge [fontsize=30]
+	Azimpur -> Palashi [label="A>P
+4.5" arrowsize=3.0]
+	Edge [fontsize=30]
+	Palashi -> "Dhaka Medical" [label="P>D
+12" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Dhaka Medical" -> Palashi [label="D>P
+13" arrowsize=3.0]
+	Edge [fontsize=30]
+	Palashi -> Lalbagh [label="P>L
+13" arrowsize=3.0]
+	Edge [fontsize=30]
+	Lalbagh -> Palashi [label="L>P
+14" arrowsize=3.0]
+	Edge [fontsize=30]
+	Palashi -> Nilkhet [label="P>N
+7" arrowsize=3.0]
+	Edge [fontsize=30]
+	Nilkhet -> Palashi [label="N>P
+8" arrowsize=3.0]
+	Edge [fontsize=30]
+	Palashi -> "Folab Road" [label="P>F
+4" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Folab Road" -> Palashi [label="F>P
+5" arrowsize=3.0]
+	Edge [fontsize=30]
+	Azimpur -> Lalbagh [label="A>L
+10" arrowsize=3.0]
+	Edge [fontsize=30]
+	Lalbagh -> Azimpur [label="L>A
+11" arrowsize=3.0]
+	Edge [fontsize=30]
+	Azimpur -> "New Market" [label="A>N
+5.5" arrowsize=3.0]
+	Edge [fontsize=30]
+	"New Market" -> Azimpur [label="N>A
+6.5" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Dhaka Medical" -> Lalbagh [label="D>L
+22" arrowsize=3.0]
+	Edge [fontsize=30]
+	Lalbagh -> "Dhaka Medical" [label="L>D
+23" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Dhaka Medical" -> "Shahid Minar" [label="D>S
+3.5" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Shahid Minar" -> "Dhaka Medical" [label="S>D
+4.5" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Dhaka Medical" -> "Press Club" [label="D>P
+12" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Press Club" -> "Dhaka Medical" [label="P>D
+13" arrowsize=3.0]
+	Edge [fontsize=30]
+	Nilkhet -> "Folab Road" [label="N>F
+5" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Folab Road" -> Nilkhet [label="F>N
+6" arrowsize=3.0]
+	Edge [fontsize=30]
+	Nilkhet -> "New Market" [label="N>N
+2.1" arrowsize=3.0]
+	Edge [fontsize=30]
+	"New Market" -> Nilkhet [label="N>N
+3.1" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Folab Road" -> "Shahid Minar" [label="F>S
+17.5" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Shahid Minar" -> "Folab Road" [label="S>F
+18.5" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Folab Road" -> Shahbagh [label="F>S
+18" arrowsize=3.0]
+	Edge [fontsize=30]
+	Shahbagh -> "Folab Road" [label="S>F
+19" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Shahid Minar" -> Shahbagh [label="S>S
+17" arrowsize=3.0]
+	Edge [fontsize=30]
+	Shahbagh -> "Shahid Minar" [label="S>S
+18" arrowsize=3.0]
+	Edge [fontsize=30]
+	"Press Club" -> Shahbagh [label="P>S
+19" arrowsize=3.0]
+	Edge [fontsize=30]
+	Shahbagh -> "Press Club" [label="S>P
+20" arrowsize=3.0]
+	"New Market" [color=green]
+	"Press Club" [color=red]
+	"Dhaka Medical" -> "Press Club" [color=red style=bold]
+	Palashi -> "Dhaka Medical" [color=red style=bold]
+	Azimpur -> Palashi [color=red style=bold]
+	"New Market" -> Azimpur [color=red style=bold]
+}

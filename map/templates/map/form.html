@@ -1,0 +1,21 @@
+{% extends "map/home.html" %}
+{% load crispy_forms_tags %}
+
+{% load static %}
+{% block content2 %}
+    <h1>Search Here</h1>
+         <form  method="post" >
+
+        <div class="autocomplete" style="width:200px;">
+            <label> Starting From: </label>
+            {% csrf_token %}
+
+            {{form|crispy}}
+
+        </div>
+
+
+
+        <input type="submit" value="OK">
+         </form>
+{% endblock content2 %}
