@@ -10,6 +10,8 @@ import heapq
 from graphviz import Digraph
 import os
 os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 class Node():
     def __init__(self, name, G,coordinate):
         self.name = name
@@ -182,7 +184,8 @@ def run(var):
     #algorithm.getShortestPath(node8, G)
 
     #print(G.source)
-    G.render('./map/static/map/images/newout')
+    #G.render('./map/static/map/images/newout')
+    G.render(BASE_DIR+'/map/static/map/images/newout')
 
     #G.render('test-output/newout', view=True)
 
