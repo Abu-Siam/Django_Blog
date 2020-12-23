@@ -25,7 +25,7 @@ SECRET_KEY = '=ks!zwf&9^p8#yfnq3f2q#oa)1^9%*=c2ct4eb#ep_=_776ab_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','shohrabsmap.herokuapp.com']
+ALLOWED_HOSTS = ['shohrabsmap.herokuapp.com','127.0.0.1']
 
 
 # Application definition
